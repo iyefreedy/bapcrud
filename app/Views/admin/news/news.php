@@ -39,7 +39,7 @@
                                             <td class="col-lg-5 text-justify"><?= $n['description'] ?></td>
                                             <td><?= $n['created_at'] ?></td>
                                             <td>
-                                                <a href="" class="btn btn-primary my-1">Detail</a>
+                                                <a href="" class="btn btn-success my-1">Detail</a>
                                                 <a href="" class="btn btn-danger my-1">Delete</a>
                                                 <!-- <a href="" class="btn btn-warning"> Edit</a> -->
         

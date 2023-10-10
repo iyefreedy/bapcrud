@@ -50,6 +50,7 @@ $routes->get('/customer', 'Customer::index');
 $routes->get('/content', 'News::index');
 $routes->get('/news/addcontent', 'News::create');
 $routes->post('/news/save', 'News::save');
+$routes->get('news/(:any)', 'News::detail/$1');
 // $routes->get('/recruitment', 'Recruitment::index');
 
 

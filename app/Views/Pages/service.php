@@ -104,7 +104,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Engine Servicing</h3>
+                                    <h3 class="mb-3">Regular Maintenance</h3>
                                     <p class="mb-4">Elevate equipment engine's performance with our precision maintenance services.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Engineer</p>
@@ -123,7 +123,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Equipment Delivery</h3>
+                                    <h3 class="mb-3">Mobilization</h3>
                                     <p class="mb-4">Efficient Transport Solutions: Streamline your deliveries with our advanced delivery equipment, ensuring efficient and timely transportation of your goods.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Seamless Distribution</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Precision Handling</p>

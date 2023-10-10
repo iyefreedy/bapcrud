@@ -17,7 +17,7 @@
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// BAP Construction //</h6> -->
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Ensuring the Safety, Building the Future</h1>
-                                    <p class="text-white mb-4 pb-3 animated slideInDown">Your one stop construction equipment rental solution</p>
+                                    <h3 class="text-white mb-4 pb-3 animated slideInDown">Your one stop construction equipment rental solution</h3>
                                     <a href="/equipment" class="btn btn-primary rounded-pill mt-3 py-3 px-5 animated slideInDown">Equipment List<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>`
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -35,8 +35,8 @@
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// BAP Construction //</h6> -->
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Memastikan Keselamatan, Membangun Masa Depan</h1>
-                                    <p class="text-white mb-4 pb-3 animated slideInDown">BAP provide the most safest rental service in indonesia.</p>
-                                    <a href="/equipment" class="btn btn-primary rounded-pill mt-3 py-3 px-5 animated slideInDown">Equipment List<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <h3 class="text-white mb-4 pb-3 animated slideInDown">BAP provide the most safest rental service in Indonesia.</h3>
+                                    <a href="/katalog" class="btn btn-primary rounded-pill mt-4 py-4 px-5 animated slideInDown"><h5>Equipment List</h5><i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <!-- <img class="img-fluid" src="img/safety.jpg" alt=""> -->
@@ -180,9 +180,9 @@
                 </div>
                 <div class="col-lg-6">
                     <!-- <h6 class="text-primary text-uppercase">// PT.Berlian Amal Perkasa //</h6> -->
-                    <h1 class="mb-4"><span class="text-primary">Who are we?</span></h1>
+                    <h1 class="mb-4"><span class="text-primary">Who we are</span></h1>
                     <h6 class="mb-4"><span class="text-primary">Nearly 10 years of experience</span></h6>
-                    <p class="mb-4">We are one of the leading rental companies in Indonesia, serving rental service excellence since 2014. We provide complete equipment rental solutions: equipment, operator, maintenance, and safety. We are there for every part of the construction industry, be it for infrastructure, maintenance, mining, building, etc. With our main yard and first office in Cilegon, we branched out our company to the South of Jakarta to establish our head office. Assuring safety as the core foundation of our business, BAP strives to serve the finest rental experience to those who know the value of safety and caring.</p>
+                    <p class="mb-4">We are one of the leading rental companies in Indonesia, providing excellent rental service since 2014. We provide complete equipment rental solutions: equipment, operator, maintenance, and safety. We are there for every part of the construction industry, be it for infrastructure, maintenance, mining, building, etc. With our main yard and first office in Cilegon, we branched out our company to the South of Jakarta to establish our head office. Assuring safety as the core foundation of our business, BAP strives to serve the finest rental experience to those who know the value of safety and caring.</p>
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex">
@@ -340,10 +340,10 @@
 
 
     <!-- Service Start -->
-    <!-- <div class="container-xxl service py-5">
+    <div class="container-xxl service py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-primary text-uppercase">// Our Services //</h6>
+                <!-- <h6 class="text-primary text-uppercase">// Our Services //</h6> -->
                 <h1 class="mb-5">Explore Our Services</h1>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -351,15 +351,15 @@
                     <div class="nav w-100 nav-pills me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                             <i class="fa fa-tractor fa-2x me-3"></i>
-                            <h4 class="m-0">Equipment Rental With Operator</h4>
+                            <h4 class="m-0">Equipment Rent</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                             <i class="fa fa-cog fa-2x me-3"></i>
-                            <h4 class="m-0">Engine Servicing</h4>
+                            <h4 class="m-0">Regular Maintenance</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
                             <i class="fa fa-truck fa-2x me-3"></i>
-                            <h4 class="m-0">Equipment Rental Without Operators</h4>
+                            <h4 class="m-0">Mobilization</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
                             <i class="fa fa-certificate fa-2x me-3"></i>
@@ -447,7 +447,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Service End -->
 
 
@@ -515,7 +515,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-primary text-uppercase">// Equipment List //</h6>
+                <!-- <h6 class="text-primary text-uppercase">// Equipment List //</h6> -->
                 <h1 class="mb-5">Our Equipment</h1>
             </div>
             <div class="row g-4">

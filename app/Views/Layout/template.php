@@ -93,7 +93,7 @@
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Head Office at Sovereign Plaza, 16th floor unit D-E, Jl. TB Simatupang Kav. 36, Cilandak, South Jakarta- 12430</p>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Machine Yard Jl. Raya Bojonegara RT 01/04 Desa Kedaleman, Kec. Cibeber, Kotamadya Cilegon, Banten</p>
@@ -106,21 +106,21 @@
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Opening Hours</h4>
                     <h6 class="text-light">Monday - Friday:</h6>
                     <p class="mb-4">09.00 AM - 17.00 PM</p>
                     <h6 class="text-light">Saturday :</h6>
                     <p class="mb-0">09.00 AM - 13.00 PM</p> 
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <!-- <h4 class="text-light mb-4">Services</h4>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
                     <a class="btn btn-link" href="">Dry Rental</a>
                     <a class="btn btn-link" href="">Wet Rental</a>
                     <a class="btn btn-link" href="">Digital Timesheet</a>
-                    <a class="btn btn-link" href="">Certified Operator</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6">
+                    <a class="btn btn-link" href="">Certified Operator</a>
+                </div> -->
+                <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
                     <p>Subscribe for information update.</p>
                     <div class="position-relative mx-auto mb-1" style="max-width: 400px;">
