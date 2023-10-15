@@ -35,10 +35,10 @@
                         <h3 class="card-title p-0 text-primary"><?= $n['judul']; ?></h3>
                         <hr class="col-lg-12">
                         <p class="card-text"><i class="fas fa-calendar-alt"></i><small class="text-muted p-2">Updated at <?= $n['created_at']; ?></small></p>
-                        <p class="card-text"><?= $n['description']; ?></p>
+                        <p class="small card-text"><?= $n['description']; ?></p>
                     </div>
                     <div class="col-md-8 mx-3 pb-3">
-                        <button class="btn btn-primary text-white">Detail</button>
+                        <!-- <button class="btn btn-primary text-white">Detail</button> -->
                     </div>
                 </div>
             </div>

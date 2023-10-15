@@ -294,7 +294,7 @@
                                     <span class="fw-bold text-secondary">01</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>PT. Mitsubishi Corporation</h6>
+                                    <h6>Mitsubishi Corporation</h6>
                                     <span class="small">Consolidated Subsidiaries and Affiliates: 1,525</span>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@
                                     <span class="fw-bold text-secondary">02</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>PT.Nikken Corporation</h6>
+                                    <h6>Nikken Corporation</h6>
                                     <span class="small">Core Services: Rental of civil engineering and construction related products</span>
                                 </div>
                             </div>

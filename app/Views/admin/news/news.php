@@ -11,7 +11,7 @@
                     <div class="card shadow mb-4 m-3">
                         <div class="card-header d-sm-flex justify-content-between mb-4 mx-3 py-3">
                             <h6 class="m-0 font-weight-bold text-primary">BAP Content</h6>
-                            <a href="equipment/create" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                            <a href="news/addcontent" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                             class="fas fa-plus fa-sm text-white-50"></i> Add Content</a>
                         </div>
                         <div class="card-body">
@@ -22,7 +22,7 @@
                                         <th scope="col">No</th>
                                         <th scope="col">News Image</th>
                                         <th scope="col">Judul</th>
-                                        <th scope="col">Description</th>
+                                        <!-- <th scope="col">Description</th> -->
                                         <th scope="col">Update Time</th>
                                         <th scope="col">Action</th>
                                         </tr>
@@ -36,7 +36,7 @@
                                                 <img class="img-fluid my-3" src="/img/<?= $n['sampul'] ?>" alt="">
                                             </td>
                                             <td><?= $n['judul'] ?></td>
-                                            <td class="col-lg-5 text-justify"><?= $n['description'] ?></td>
+                                            <!-- <td class="col-lg-5 text-justify"></td> -->
                                             <td><?= $n['created_at'] ?></td>
                                             <td>
                                                 <a href="" class="btn btn-success my-1">Detail</a>
