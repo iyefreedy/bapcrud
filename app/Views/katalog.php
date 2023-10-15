@@ -70,7 +70,7 @@
             <img src="" alt="">
             <div class="row g-3">
                 <?php foreach ($equipment as $e) : ?>
-                    <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body m-3" style="width: 18rem;">
                         <div class="panel-body bg-white m-2 p-2" style="text-align: center; overflow:hidden; padding:0; height:220px">
 
                             <img style="" class="card-img-top" src="img/<?= $e['sampul']; ?>" alt="Card image cap">

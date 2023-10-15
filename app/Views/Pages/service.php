@@ -24,7 +24,7 @@
     <!-- Page Header End -->
 
     <!-- Booking Start -->
-    <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -41,6 +41,41 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-xxl py-5" style="border-radius: 30px;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex py-5 px-2">
+                        <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Dry Rental</h5>
+                            <p>Equipment rental service without operator for more flexible usage and needs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow col-lg-4 col-md-6 bg-white wow fadeInUp" data-wow-delay="0.5s"">
+                    <div class="d-flex py-5 px-4 ">
+                        <i class="fa fa-tools fa-3x text-primary flex-shrink-0" ></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3 text-dark">All in one rental solution</h5>
+                            <p>We provide you comprehensive rental service from equipment mobilization, on-site-ready mechanic for service, and digital data recording for equipment monitoring</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Wet Rental</h5>
+                            <p>Equipment rental service including our certified and highly professional operator</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

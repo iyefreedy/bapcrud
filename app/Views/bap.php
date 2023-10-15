@@ -36,7 +36,7 @@
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// BAP Construction //</h6> -->
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Memastikan Keselamatan, Membangun Masa Depan</h1>
                                     <h3 class="text-white mb-4 pb-3 animated slideInDown">BAP provide the most safest rental service in Indonesia.</h3>
-                                    <a href="/katalog" class="btn btn-primary rounded-pill mt-4 py-4 px-5 animated slideInDown"><h5>Equipment List</h5><i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/katalog" class="btn btn-primary rounded-pill mt-4 py-4 px-5 animated slideInDown">Equipment List<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <!-- <img class="img-fluid" src="img/safety.jpg" alt=""> -->
@@ -171,11 +171,115 @@
             <div class="row g-5">
                 <div class="col-lg-6 pt-4" style="min-height: 400px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-content.JPG" style="object-fit: cover;" alt="">
+                        <!-- <img class="position-absolute img-fluid w-100 h-100" src="img/img_shareholdedr.png" style="object-fit: cover;" alt=""> -->
                         <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
-                            <h1 class="display-4 text-white mb-0">10 <span class="fs-4">Years</span></h1>
-                            <h4 class="text-white">Experience</h4>
+                            <h1 class="display-4 text-dark mb-0">10 <span class="fs-4">Years</span></h1>
+                            <h4 class="text-dark">Experience</h4>
                         </div>
+                                    <!-- Card Body -->
+                                <img class="position-absolute img-fluid justify-content-center" src="img/bapsmall.jpg" alt="">
+                                <div class="container py-5 my-5 position-absolute">
+                                    <div class="chart-pie pt-4 pb-2">
+                                        <canvas id="myPieChart"></canvas>
+                                    </div>
+                                    <!-- <div class="row small">
+                                        <span class="mt-2">
+                                            <i class="fas fa-circle text-danger"></i> PT. Mitsubishi Corporation
+                                        </span>
+                                        <span class="mt-2">
+                                            <i class="fas fa-circle text-success"></i> PT. NIKKEN
+                                        </span>
+                                        <span class="mt-2">
+                                            <i class="fas fa-circle text-info"></i> PT. Kawan Lama
+                                        </span>
+                                        <span class="mt-2">
+                                            <i class="fas fa-circle text-success"></i> PT. Cakrawala Inti Nusantara
+                                        </span>
+                                    </div> -->
+                                    <!-- <div class="card-body shadow mb-4 mt-3">
+                                        <div class="card-header py-3">
+                                            <h6 class="m-0 font-weight-bold text-primary">Our Shareholder</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="small font-weight-bold">PT. Mitshubishi Corporation <span
+                                                    class="float-right">(49%)</span></h4>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="color:#1F900D; width: 49%"
+                                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <h4 class="small font-weight-bold">PT. NIKKEN <span
+                                                    class="float-right">30%</span></h4>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="color:#28BB11; width: 30%"
+                                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <h4 class="small font-weight-bold">PT. Kawan Lama <span
+                                                    class="float-right">20%</span></h4>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="color:#5BEE44; width: 20%"
+                                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <h4 class="small font-weight-bold">PT. Cakrawala Inti Nusantara <span
+                                                    class="float-right">1%</span></h4>
+                                            <div class="progress mb-4">
+                                                <div class="progress-bar" role="progressbar" style="color:#ADF7A1; width: 5%"
+                                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="row g-3 px-5 pt-3 align-items-center ">
+                                        <div class="col-lg-6 p-2">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/mitsubishi.png" alt="Card image cap" style="height:35px;">
+                                                <div class="card-body">
+                                                <div class="progress mb-4">
+                                                    <div class="progress-bar" role="progressbar" style="color:#1F900D; width: 49%"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <p>49%</p>
+                                                    </div>
+                                                    <!-- <p class="card-text">Have 50% of BAP Corporation</p> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="card-body responsive" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/Nikken.png" alt="Card image cap" style="height:35px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-4">
+                                                        <div class="progress-bar" role="progressbar" style="color:#28BB11; width: 30%"
+                                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>30%</p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/kawan_lama.png" alt="Card image cap" style="height:45px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-4">
+                                                        <div class="progress-bar" role="progressbar" style="color:#5BEE44; width: 20%"
+                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>20%</p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 p-2">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/PT. Cakrawala Inti Nusantara.png" alt="Card image cap" style="height:45px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-4">
+                                                        <div class="progress-bar" role="progressbar" style="color:#ADF7A1; width: 5%"
+                                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>1%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>     
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -190,8 +294,8 @@
                                     <span class="fw-bold text-secondary">01</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>High Quality Equipment</h6>
-                                    <span>We provide high quality equipment with certified and well-trained operators</span>
+                                    <h6>PT. Mitsubishi Corporation</h6>
+                                    <span class="small">Consolidated Subsidiaries and Affiliates: 1,525</span>
                                 </div>
                             </div>
                         </div>
@@ -201,8 +305,8 @@
                                     <span class="fw-bold text-secondary">02</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>Top-notch Mechanics</h6>
-                                    <span>Regular Maintenance from prefessional mechanic</span>
+                                    <h6>PT.Nikken Corporation</h6>
+                                    <span class="small">Core Services: Rental of civil engineering and construction related products</span>
                                 </div>
                             </div>
                         </div>
@@ -212,8 +316,8 @@
                                     <span class="fw-bold text-secondary">03</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>Safety Ensured</h6>
-                                    <span>Comprehensive safety progaram as standard procedure</span>
+                                    <h6>PT. Kawan Lama</h6>
+                                    <span class="small">Brand : Kawan Lama, Krisbow, Ace Hardware, Informa</span>
                                 </div>
                             </div>
                         </div>
@@ -223,13 +327,13 @@
                                     <span class="fw-bold text-secondary">03</span>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>Hassle-Free Rental</h6>
-                                    <span>Rental monitoring with Digital Timesheet and Telematic Technology</span>
+                                    <h6>PT Cakrawala Inti Nusantara</h6>
+                                    <span class="small">Core : Construction Consulting & Planning - Civil Construction Specialist - Green House System</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                    <a href="/service" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
         </div>

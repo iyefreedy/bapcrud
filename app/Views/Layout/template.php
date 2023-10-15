@@ -209,6 +209,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Charts Pluggin -->
+    <script src="chart.js/Chart.min.js"></script>
+
+    <!-- Chart Pie JS -->
+    <script src="js/demo/chart-pie-demo.js"></script>
 </body>
 
 </html>

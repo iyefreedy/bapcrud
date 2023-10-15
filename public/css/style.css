@@ -48,6 +48,7 @@
     font-weight: 500;
     /* text-transform: uppercase; */
     transition: .5s;
+    /* font-size: 25px; */
 }
 
 .btn.btn-primary,
@@ -164,6 +165,10 @@
 
 .carousel-caption .col-10{
     right: 100px;
+}
+
+.carousel-caption .a{
+    font-size: 50px;
 }
 
 /* .btn {
@@ -409,7 +414,19 @@
     background-size: cover;
 }
 
-/* News part II*/
+
+.chart-pie {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    justify-content: middle;
+  }
+  
+  @media (min-width: 768px) {
+    .chart-pie {
+      height: calc(20rem - 43px) !important;
+    }
+  }
 
 
 
