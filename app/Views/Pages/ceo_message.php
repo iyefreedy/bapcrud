@@ -24,7 +24,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active"style="max-height: 100vh;">
-                    <img class="w-100" src="img/ceo-3.jpg" alt="Image">
+                    <img class="w-100" src="<?= base_url(); ?>img/ceo-3.jpg" alt="Image">
                     <div class="carousel-caption owl-carousel d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-end justify-content-lg-end">

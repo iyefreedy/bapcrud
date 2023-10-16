@@ -169,19 +169,73 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                <div class="col-lg-6 pt-4 mt-4" style="min-height: 300px;">
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
                         <!-- <img class="position-absolute img-fluid w-100 h-100" src="img/img_shareholdedr.png" style="object-fit: cover;" alt=""> -->
+                        <div class="chart-pie mb-3">
+                            <canvas id="myPieChart"></canvas>
+                        </div>
+                        <div class="row g-2 px-5 align-items-center ">
+                                        <div class="col-lg-6">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/mitsubishi.png" alt="Card image cap" style="height:35px;">
+                                                <div class="card-body">
+                                                <div class="progress mb-2">
+                                                    <div class="progress-bar" role="progressbar" style="background: #1F900D; width: 49%;"
+                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <p>49%</p>
+                                                    </div>
+                                                    <!-- <p class="card-text">Have 50% of BAP Corporation</p> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-body responsive" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/Nikken.png" alt="Card image cap" style="height:35px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-2">
+                                                        <div class="progress-bar" role="progressbar" style="background:#28BB11; width: 30%;"
+                                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>30%</p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/kawan_lama.png" alt="Card image cap" style="height:45px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-2">
+                                                        <div class="progress-bar" role="progressbar" style="background:#5BEE44; width: 20%"
+                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>20%</p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-body" style="width: 12rem;">
+                                                <img class="card-img-top img-fluid" src="img/PT. Cakrawala Inti Nusantara.png" alt="Card image cap" style="height:45px;">
+                                                <div class="card-body">
+                                                    <div class="progress mb-2">
+                                                        <div class="progress-bar" role="progressbar" style="background:#ADF7A1; width: 5%"
+                                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                            <p>1%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                          
+                                    </div>
                         <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
                             <h1 class="display-4 text-dark mb-0">10 <span class="fs-4">Years</span></h1>
                             <h4 class="text-dark">Experience</h4>
                         </div>
                                     <!-- Card Body -->
-                                <img class="position-absolute img-fluid justify-content-center" src="img/bapsmall.jpg" alt="">
+                                <!-- <img class="position-absolute img-fluid justify-content-center" src="img/bapsmall.jpg" alt="">
                                 <div class="container py-5 my-5 position-absolute">
                                     <div class="chart-pie pt-4 pb-2">
                                         <canvas id="myPieChart"></canvas>
-                                    </div>
+                                    </div> -->
                                     <!-- <div class="row small">
                                         <span class="mt-2">
                                             <i class="fas fa-circle text-danger"></i> PT. Mitsubishi Corporation
@@ -227,59 +281,8 @@
                                             </div>
                                         </div>
                                     </div> -->
-                                    <div class="row g-3 px-5 pt-3 align-items-center ">
-                                        <div class="col-lg-6 p-2">
-                                            <div class="card-body" style="width: 12rem;">
-                                                <img class="card-img-top img-fluid" src="img/mitsubishi.png" alt="Card image cap" style="height:35px;">
-                                                <div class="card-body">
-                                                <div class="progress mb-4">
-                                                    <div class="progress-bar" role="progressbar" style="color:#1F900D; width: 49%"
-                                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                                        <p>49%</p>
-                                                    </div>
-                                                    <!-- <p class="card-text">Have 50% of BAP Corporation</p> -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="card-body responsive" style="width: 12rem;">
-                                                <img class="card-img-top img-fluid" src="img/Nikken.png" alt="Card image cap" style="height:35px;">
-                                                <div class="card-body">
-                                                    <div class="progress mb-4">
-                                                        <div class="progress-bar" role="progressbar" style="color:#28BB11; width: 30%"
-                                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            <p>30%</p>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="card-body" style="width: 12rem;">
-                                                <img class="card-img-top img-fluid" src="img/kawan_lama.png" alt="Card image cap" style="height:45px;">
-                                                <div class="card-body">
-                                                    <div class="progress mb-4">
-                                                        <div class="progress-bar" role="progressbar" style="color:#5BEE44; width: 20%"
-                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            <p>20%</p>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 p-2">
-                                            <div class="card-body" style="width: 12rem;">
-                                                <img class="card-img-top img-fluid" src="img/PT. Cakrawala Inti Nusantara.png" alt="Card image cap" style="height:45px;">
-                                                <div class="card-body">
-                                                    <div class="progress mb-4">
-                                                        <div class="progress-bar" role="progressbar" style="color:#ADF7A1; width: 5%"
-                                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            <p>1%</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>     
+                                    
+                                <!-- </div>      -->
                     </div>
                 </div>
                 <div class="col-lg-6">

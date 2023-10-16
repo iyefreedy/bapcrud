@@ -7,7 +7,7 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["PT.Mitsubishi", "PT.Nikken", "PT.Kawan Lama", "PT. Cakrawala Inti Nusantara"],
+    labels: ["Mitsubishi Corporation", "Nikken Corporation", "PT.Kawan Lama", "PT. Cakrawala Inti Nusantara"],
     datasets: [{
       data: [45, 35, 19, 10],
       backgroundColor: ['#1F900D', '#24A810', '#6BEF57','#9DF58F'],

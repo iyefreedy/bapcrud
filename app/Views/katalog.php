@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="shadow col-lg-4 col-md-6 bg-light wow fadeInUp" data-wow-delay="0.5s"">
+                <div class="shadow col-lg-4 col-md-6 bg-white wow fadeInUp" data-wow-delay="0.5s"">
                     <div class="d-flex py-5 px-4 ">
                         <i class="fa fa-tools fa-3x text-primary flex-shrink-0" ></i>
                         <div class="ps-4">
