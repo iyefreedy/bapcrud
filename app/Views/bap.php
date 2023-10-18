@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" style="max-height: 900px;">
-                    <img class="w-100" src="img/content-11.JPG" alt="Image">
+                    <img class="w-100" src="img/content-10.jpg" alt="Image">
                     <div class="carousel-caption owl-carousel d-flex align-items-center">
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -36,7 +36,7 @@
                                     <!-- <h6 class="text-white text-uppercase mb-3 animated slideInDown">// BAP Construction //</h6> -->
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Memastikan Keselamatan, Membangun Masa Depan</h1>
                                     <h3 class="text-white mb-4 pb-3 animated slideInDown">BAP provide the most safest rental service in Indonesia.</h3>
-                                    <a href="/katalog" class="btn btn-primary rounded-pill mt-4 py-4 px-5 animated slideInDown">Equipment List<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/katalog" class="btn btn-primary rounded-pill mt-3 py-3 px-5 animated slideInDown">Equipment List<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                     <!-- <img class="img-fluid" src="img/safety.jpg" alt=""> -->
@@ -170,13 +170,14 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 pt-4 mt-4" style="min-height: 300px;">
+                <!-- <img src="img/smallbap.png" alt=""> -->
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <!-- <img class="position-absolute img-fluid w-100 h-100" src="img/img_shareholdedr.png" style="object-fit: cover;" alt=""> -->
-                        <div class="chart-pie mb-3">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/chart_bap.png" style="object-fit: cover;" alt="">
+                        <!-- <div class="chart-pie mb-3">
                             <canvas id="myPieChart"></canvas>
-                        </div>
-                        <div class="row g-2 px-5 align-items-center ">
-                                        <div class="col-lg-6">
+                        </div> -->
+                        <!-- <div class="row g-2 px-5 mt-3 pt-2 align-items-center "> -->
+                                        <!-- <div class="col-lg-6">
                                             <div class="card-body" style="width: 12rem;">
                                                 <img class="card-img-top img-fluid" src="img/mitsubishi.png" alt="Card image cap" style="height:35px;">
                                                 <div class="card-body">
@@ -185,7 +186,7 @@
                                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                                         <p>49%</p>
                                                     </div>
-                                                    <!-- <p class="card-text">Have 50% of BAP Corporation</p> -->
+                                                    <p class="card-text">Have 50% of BAP Corporation</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -224,12 +225,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>                          
-                                    </div>
-                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                                        </div>                           -->
+                                    <!-- </div> -->
+                        <!-- <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
                             <h1 class="display-4 text-dark mb-0">10 <span class="fs-4">Years</span></h1>
                             <h4 class="text-dark">Experience</h4>
-                        </div>
+                        </div> -->
                                     <!-- Card Body -->
                                 <!-- <img class="position-absolute img-fluid justify-content-center" src="img/bapsmall.jpg" alt="">
                                 <div class="container py-5 my-5 position-absolute">
@@ -289,7 +290,7 @@
                     <!-- <h6 class="text-primary text-uppercase">// PT.Berlian Amal Perkasa //</h6> -->
                     <h1 class="mb-4"><span class="text-primary">Who we are</span></h1>
                     <h6 class="mb-4"><span class="text-primary">Nearly 10 years of experience</span></h6>
-                    <p class="mb-4">We are one of the leading rental companies in Indonesia, providing excellent rental service since 2014. We provide complete equipment rental solutions: equipment, operator, maintenance, and safety. We are there for every part of the construction industry, be it for infrastructure, maintenance, mining, building, etc. With our main yard and first office in Cilegon, we branched out our company to the South of Jakarta to establish our head office. Assuring safety as the core foundation of our business, BAP strives to serve the finest rental experience to those who know the value of safety and caring.</p>
+                    <p class="mb-4">We are one of the leading rental companies in Indonesia, providing excellent rental service since 2014. We provide complete equipment rental solutions: equipment, operator, maintenance, and safety. We are there for every part of the construction industry, be it for infrastructure, maintenance, mining, building, etc. Assuring safety as the core foundation of our business, BAP strives to serve the finest rental experience to those who know the value of safety and caring.</p>
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex">
@@ -478,7 +479,7 @@
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/cover-2.jpg"
                                             style="object-fit: cover;" alt="">
@@ -490,34 +491,34 @@
                                     <p><i class="fa fa-check text-success me-3"></i>Good Equipment Condition</p>
                                     <p><i class="fa fa-check text-success me-3"></i>A Large Selection of Equipment Types Available</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Already Heavy Equipment</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-4.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Engine Servicing</h3>
+                                    <h3 class="mb-3">Regular</h3>
                                     <p class="mb-4">Elevate equipment engine's performance with our precision maintenance services.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Engineer</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Good Machine</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Efficiency Enhancement</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service_3.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mob.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -528,13 +529,13 @@
                                     <p><i class="fa fa-check text-success me-3"></i>Precision Handling</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Enhanced Logistics</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Safety First</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-6.JPG"
                                             style="object-fit: cover;" alt="">
@@ -546,7 +547,7 @@
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Skill Certified</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3">Contact Us<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -642,7 +643,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Bulldozer</h5>
-                            <small>Brand : Catterpillar</small>
+                            <!-- <small>Brand : Catterpillar</small> -->
                         </div>
                     </div>
                 </div>
@@ -658,7 +659,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Motor Grader</h5>
-                            <small>Brand: Catterpillar</small>
+                            <!-- <small>Brand: Catterpillar</small> -->
                         </div>
                     </div>
                 </div>
@@ -674,7 +675,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Telehandler</h5>
-                            <small>Brand: JCB</small>
+                            <!-- <small>Brand: JCB</small> -->
                         </div>
                     </div>
                 </div>
@@ -690,7 +691,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Excavator</h5>
-                            <small>Brand: Catterpillar</small>
+                            <!-- <small>Brand: Catterpillar</small> -->
                         </div>
                     </div>
                 </div>
@@ -706,7 +707,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Scissor Lift</h5>
-                            <small>Brand: Catterpillar</small>
+                            <!-- <small>Brand: Catterpillar</small> -->
                         </div>
                     </div>
                 </div>
@@ -722,7 +723,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Rough Terrain Crane</h5>
-                            <small>Brand: Catterpillar,Kato,etc</small>
+                            <!-- <small>Brand: Catterpillar,Kato,etc</small> -->
                         </div>
                     </div>
                 </div>
@@ -738,7 +739,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Crawler Crane</h5>
-                            <small>Brand: TMC</small>
+                            <!-- <small>Brand: TMC</small> -->
                         </div>
                     </div>
                 </div>
@@ -754,7 +755,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Truck Mounted Crane</h5>
-                            <small>Brand: Tadano</small>
+                            <!-- <small>Brand: Tadano</small> -->
                         </div>
                     </div>
                 </div>
@@ -770,7 +771,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Forklift</h5>
-                            <small>Brand: TMC</small>
+                            <!-- <small>Brand: TMC</small> -->
                         </div>
                     </div>
                 </div>
@@ -786,7 +787,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Backhoe Loader</h5>
-                            <small>Brand: TMC</small>
+                            <!-- <small>Brand: TMC</small> -->
                         </div>
                     </div>
                 </div>
@@ -802,7 +803,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">Boom Lift ZT26J</h5>
-                            <small>Brand : Zoomlion</small>
+                            <!-- <small>Brand : Zoomlion</small> -->
                         </div>
                     </div>
                 </div>
@@ -818,7 +819,7 @@
                         </div>
                         <div class="bg-light text-center p-4">
                             <h5 class="fw-bold mb-2">All Terrain Crane</h5>
-                            <small>Brand : All Terrain Crane</small>
+                            <!-- <small>Brand : All Terrain Crane</small> -->
                         </div>
                     </div>
                 </div> 
@@ -840,7 +841,7 @@
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
                     <img class="bg p-2 mx-auto mb-3" src="img/mitsubishi.png" style="max-width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Mitsubishi Corporation</h5>
+                    <h5 class="mb-1"> <a href="https://www.mitsubishicorp.com/jp/en/index.html" class="text-secondary" target="_blank">Mitsubishi Corporation</a></h5>
                     <p>Multinational Company</p>
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
@@ -856,7 +857,7 @@
                 </div> -->
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/Nikken.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Nikken</h5>
+                    <h5 class="mb-0"><a href="https://www.rental.co.jp/english/company/" class="text-secondary" target="_blank">Nikken Corporation</a></h5>
                     <p>Contributing to a recycling-based society throught rental</p>
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
@@ -864,7 +865,7 @@
                 </div>
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/kawan_lama.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-1">PT.Kawan Lama</h5>
+                    <h5 class="mb-1"><a href="https://www.kawanlama.com/" class="text-secondary" target="_blank">PT.Kawan Lama</a></h5>
                     <p>Commercial & Industrial Suply</p>
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
@@ -872,7 +873,7 @@
                 </div>
                 <div class="testimonial-item text-center">
                     <img class=" p-2 mx-auto mb-3" src="img/PT. Cakrawala Inti Nusantara.png" style="width: auto; height: 70px;">
-                    <h5 class="mb-0">PT.Cakrawala Inti Nusantara</h5>
+                    <h5 class="mb-1"><a href="https://cakrawalaintinusantara.co.id/" class="text-secondary" target="_blank">PT.Cakrawala Inti Nusantara</a></h5>
                     <p>General Contractor,Enginering & Trading</p>
                     <!-- <div class="testimonial-text bg-light text-center p-4">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>

@@ -34,4 +34,21 @@ class Katalog extends BaseController
 
         return view('/katalog', $data);
     }
+
+    public function detail($slug)
+    {
+        
+        $data = [
+
+            'title' => 'Detail Equipment',
+            'equipment' => $this->equipmentModel->getEquipment($slug)
+        ];
+
+        // Jika equipment tidak ada pada table
+        if(empty($data['equipment'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Nama alat ' . $slug . ' tidak ditemukan');
+        }
+
+        return view('katalog_detail', $data);
+    }
 }

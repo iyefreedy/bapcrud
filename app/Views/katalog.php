@@ -79,7 +79,7 @@
                             <h5 class="card-title"><?= $e['nama_alat']; ?></h5>
                             <p class="card-text mb-1">Brand : <?= $e['brand']; ?></p>
                             <p class="card-text">Capacity : <?= $e['capacity']; ?></p>
-                            <a href="#" class="btn btn-primary">Detail</a>
+                            <a href="/katalog/<?= $e['slug']; ?>" class="btn btn-primary">Detail</a>
                         </div>
                     </div>
                 <?php endforeach ?>

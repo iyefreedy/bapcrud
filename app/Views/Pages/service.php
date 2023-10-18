@@ -114,7 +114,7 @@
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/cover-2.jpg"
                                             style="object-fit: cover;" alt="">
@@ -132,7 +132,7 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-4.jpg"
                                             style="object-fit: cover;" alt="">
@@ -151,9 +151,9 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service_3.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mob.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-6.JPG"
                                             style="object-fit: cover;" alt="">

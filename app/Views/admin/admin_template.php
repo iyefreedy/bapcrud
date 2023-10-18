@@ -21,8 +21,8 @@
     <!-- <link href="../css/style.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template-->
-    <link href="<?= base_url('assets/') ?>/css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="<?= base_url('assets/') ?>css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= base_url('assets/') ?>css/sb-admin-2.css" rel="stylesheet">
 
 </head>
 
@@ -303,7 +303,7 @@
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_1.svg"
+                                        <img class="rounded-circle" src="<?= base_url('assets/') ?>img/undraw_profile_1.svg"
                                             alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
@@ -315,7 +315,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_2.svg"
+                                        <img class="rounded-circle" src="<?= base_url('assets/') ?>img/undraw_profile_2.svg"
                                             alt="...">
                                         <div class="status-indicator"></div>
                                     </div>
@@ -327,7 +327,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="img/undraw_profile_3.svg"
+                                        <img class="rounded-circle" src="<?= base_url('assets/') ?>img/undraw_profile_3.svg"
                                             alt="...">
                                         <div class="status-indicator bg-warning"></div>
                                     </div>
@@ -361,7 +361,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Berlian Amal Perkasa</span>
                                 <img class="img-profile rounded-circle"
-                                    src="<?= base_url('img/') ?>/BAP Logo Pendek.png">
+                                    src="<?= base_url('img/') ?>BAP Logo Pendek.png">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -430,7 +430,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="/logout">Logout</a>
                 </div>
             </div>
         </div>
@@ -438,7 +438,7 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="<?= base_url('assets/') ?>vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('assets/') ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="<?= base_url('assets/') ?>vendor/jquery-easing/jquery.easing.min.js"></script>

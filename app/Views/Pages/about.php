@@ -150,17 +150,17 @@
     <!-- Fact End -->
 
     <!-- Youtube Start -->
-    <div class="container-xxl youtube py-5">
+    <!-- <div class="container-xxl youtube py-5">
         <div class="container-fluid">
             <div class="col text-center">
-                <!-- <h6 class="text-primary text-uppercase">//Company Profile//</h6> -->
+                <h6 class="text-primary text-uppercase">//Company Profile//</h6>
                 <h1 class="mb-5">Company Overview</h1>
                 <div class="yt justify-content-center d-flex py-5 text-center">
                     <iframe width="760" height="415" src="https://www.youtube.com/embed/fsjbYUW52Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Youtube End -->
 
     <!-- Company Profile Start -->
@@ -213,15 +213,19 @@
                             <div class="nav w-100 nav-pills me-4">
                                 <button class="nav-link w-100 rounded-pill d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                                     <i class="fa fa-tractor fa-2x me-3"></i>
-                                    <h4 class="m-0">Operation</h4>
+                                    <h5 class="m-0">Operation</h5>
                                 </button>
                                 <button class="nav-link w-100 rounded-pill d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                                     <i class="fa fa-cog fa-2x me-3"></i>
-                                    <h4 class="m-0">Training</h4>
+                                    <h5 class="m-0">Training</h5>
                                 </button>
                                 <button class="nav-link w-100 rounded-pill d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
                                     <i class="fa fa-truck fa-2x me-3"></i>
-                                    <h4 class="m-0">Others</h4>
+                                    <h5 class="m-0">Others</h5>
+                                </button>
+                                <button class="nav-link w-100 rounded-pill d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                                    <i class="fa fa-user fa-2x me-3"></i>
+                                    <h5 class="m-0">Company Social Responsibility</h5>
                                 </button>
                             </div>
                         </div>
@@ -229,7 +233,7 @@
                             <div class="tab-content w-100">
                                 <div class="tab-pane fade show active" id="tab-pane-1">
                                     <div class="row g-4">
-                                        <div class="col-md-6" style="min-height: 350px;">
+                                        <div class="col-md-6" style="min-height: 400px;">
                                             <div class="position-relative h-100">
                                                 <img class="position-absolute img-fluid w-100 h-100" src="img/safety2.jpg"
                                                     style="object-fit: cover;" alt="">
@@ -250,7 +254,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab-pane-2">
                                     <div class="row g-4">
-                                        <div class="col-md-6" style="min-height: 350px;">
+                                        <div class="col-md-6" style="min-height: 400px;">
                                             <div class="position-relative h-100">
                                                 <img class="position-absolute img-fluid w-100 h-100" src="img/training1.jpg"
                                                     style="object-fit: cover;" alt="">
@@ -268,7 +272,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab-pane-3">
                                     <div class="row g-4">
-                                        <div class="col-md-6" style="min-height: 350px;">
+                                        <div class="col-md-6" style="min-height: 400px;">
                                             <div class="position-relative h-100">
                                                 <img class="position-absolute img-fluid w-100 h-100" src="img/safety new.jpg"
                                                     style="object-fit: cover;" alt="">
@@ -286,18 +290,16 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab-pane-4">
                                     <div class="row g-4">
-                                        <div class="col-md-6" style="min-height: 350px;">
+                                        <div class="col-md-6" style="min-height: 400px;">
                                             <div class="position-relative h-100">
-                                                <img class="position-absolute img-fluid w-100 h-100" src="img/about_2.jpg"
+                                                <img class="position-absolute img-fluid w-100 h-100" src="img/_DSC5608.jpg"
                                                     style="object-fit: cover;" alt="">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <h3 class="mb-3">10 Years Of Experience In Equipment Rent</h3>
-                                            <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                            <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                            <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                            <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                            <h3 class="mb-3">Company Social Responsibility</h3>
+                                            <p class="mb-4 small">CSR (Corporate Social Responsibility) merupakan tindakan yang dilakukan oleh perusahaan sebagai rasa tanggung jawab perusahaan terhadap social maupun lingkungan sekitar dimana perusahaan itu berada, seperti melakukan suatu kegiatan yang dapat meningkatkan kesejahteraan, kesehatan masyarakat sekitar dan menjaga lingkungan, memberikan peluang magang atau internship kepada siswa dan mahasiswa, dana untuk pemeliharaan fasilitas umum, sumbangan untuk membangun desa/fasilitas masyarakat yang bersifat sosial dan hal lainnya yang berguna untuk masyarakat banyak. 
+Program ini sebagai suatu bentuk tanggung jawab perusahaan kepada semua aspek soisal dan juga lingkungan yang ada disekitar lokasi bisnis tersebut. Sehingga, disamping mengejar sebuah profit, perusahaan juga harus bertanggungjawab atas orang-orang yang ada disekitarnya. </p>
                                             <!-- <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a> -->
                                         </div>
                                     </div>
@@ -319,7 +321,7 @@
                 <!-- <h6 class="text-primary text-uppercase">//Organization Chart//</h6> -->
                 <h1 class="mb-5">BAP Structure Organization</h1>
                 <div class="yt justify-content-center d-flex py-2 text-center" style="min-height:80px;">
-                    <img class=" img-fluid w-100 h-100" src="img/Chart Org.png" alt="">
+                    <img class=" img-fluid w-100 h-100" src="img/new_chart_organization.png" alt="">
                 </div>
             </div>
         </div>
