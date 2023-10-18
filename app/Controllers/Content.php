@@ -28,4 +28,23 @@ class Content extends BaseController
 
         return view('Pages/news', $data);
     }
+
+    public function detail($id)
+    {
+        
+        $data = [
+
+            'title' => 'Latest Update',
+            'news' => $this->newsModel->getNews($id)
+        ];
+
+        // Jika equipment tidak ada pada table
+        if(empty($data['news'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('content ' . $id . ' tidak ditemukan');
+        }
+
+        // dd($data);
+
+        return view('/news_detail', $data);
+    }
 }

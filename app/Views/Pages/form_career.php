@@ -8,7 +8,7 @@
           <div class="row g-5">
               <div class="col-lg-6 pt-4" style="min-height: 400px;">
                   <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                      <img class="position-absolute img-fluid w-100 h-100" src="img/work.jpg" style="object-fit: cover;" alt="">
+                      <img class="position-absolute img-fluid w-100 h-100" src="img/img_shareholdedr.png" style="object-fit: cover;" alt="">
                       <!-- <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .2);">
                           <h1 class="display-4 text-white mb-0">Solid <span class="fs-4"></span></h1>
                           <h4 class="text-white">Team Works</h4>
@@ -16,7 +16,7 @@
                   </div>
               </div>
               <div class="col-lg-6">
-                  <h1 class="mb-4"><span class="text-primary">Why</span> work with us ?</h1>
+                  <h1 class="mb-4 mt-5"><span class="text-primary">Why</span> work with us ?</h1>
                   <p class="mb-4">BAP has amazing opportunities for professionals, graduates, and interns. We focus on delivering our core value to each and every one of our employees. By holding firm to the values of safety and caring, we could help you go through the journey of self-discipline that will change your life for the better.</p>
                   <!-- <a href="" class="btn btn-primary py-3 px-5">Apply<i class="fa fa-arrow-right ms-3"></i></a> -->
               </div>
@@ -27,7 +27,7 @@
 
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="container py-5 h-100">
+        <div class="container h-100">
             <div class="row justify-content-center align-items-center h-100">
             <div class="col-12 col-lg-9 col-xl-7">
                 <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">

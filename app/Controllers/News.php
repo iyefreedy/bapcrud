@@ -29,6 +29,23 @@ class News extends BaseController
         return view('admin/news/news', $data);
     }
 
+    // public function detail($slug)
+    // {
+        
+    //     $data = [
+
+    //         'title' => 'Detail News',
+    //         'equipment' => $this->newsModel->getNews($slug)
+    //     ];
+
+    //     // Jika equipment tidak ada pada table
+    //     if(empty($data['news'])) {
+    //         throw new \CodeIgniter\Exceptions\PageNotFoundException('Judul ' . $slug . ' tidak ditemukan');
+    //     }
+
+    //     return view('admin/news/detail', $data);
+    // }
+
     public function create()
     {
         $data = [

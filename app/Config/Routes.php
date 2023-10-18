@@ -50,6 +50,7 @@ $routes->get('/customer', 'Customer::index');
 $routes->get('/content', 'News::index');
 $routes->get('/news/addcontent', 'News::create');
 $routes->post('/news/save', 'News::save');
+$routes->get('/news/(:any)', 'Content::detail/$1');
 // $routes->get('/recruitment', 'Recruitment::index');
 
 
@@ -63,6 +64,8 @@ $routes->post('/equipment/save', 'Equipment::save');
 $routes->get('/equipment/create', 'Equipment::create');
 $routes->delete('/equipment/(:num)', 'Equipment::delete/$1');
 $routes->get('/equipment/edit/(:segment)', 'Equipment::edit/$1');
+// $routes->get('/news/(:any)','Content::detail/$1');
+$routes->get('/katalog/(:any)','Katalog::detail/$1');
 $routes->get('/equipment/(:any)','Equipment::detail/$1');
 
 $routes->get('contact', 'EmailController::index',['as'=>'contact']);

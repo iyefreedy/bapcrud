@@ -24,7 +24,7 @@
     <!-- Page Header End -->
 
     <!-- Booking Start -->
-    <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -41,6 +41,41 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-xxl py-5" style="border-radius: 30px;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex py-5 px-2">
+                        <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Dry Rental</h5>
+                            <p>Equipment rental service without operator for more flexible usage and needs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow col-lg-4 col-md-6 bg-white wow fadeInUp" data-wow-delay="0.5s"">
+                    <div class="d-flex py-5 px-4 ">
+                        <i class="fa fa-tools fa-3x text-primary flex-shrink-0" ></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3 text-dark">All in one rental solution</h5>
+                            <p>We provide you comprehensive rental service from equipment mobilization, on-site-ready mechanic for service, and digital data recording for equipment monitoring</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3">Wet Rental</h5>
+                            <p>Equipment rental service including our certified and highly professional operator</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -79,7 +114,7 @@
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/cover-2.jpg"
                                             style="object-fit: cover;" alt="">
@@ -97,14 +132,14 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-4.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Engine Servicing</h3>
+                                    <h3 class="mb-3">Regular Maintenance</h3>
                                     <p class="mb-4">Elevate equipment engine's performance with our precision maintenance services.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Engineer</p>
@@ -116,14 +151,14 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service_3.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mob.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">Equipment Delivery</h3>
+                                    <h3 class="mb-3">Mobilization</h3>
                                     <p class="mb-4">Efficient Transport Solutions: Streamline your deliveries with our advanced delivery equipment, ensuring efficient and timely transportation of your goods.</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Seamless Distribution</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Precision Handling</p>
@@ -135,7 +170,7 @@
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" style="min-height: 400px;">
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/content-6.JPG"
                                             style="object-fit: cover;" alt="">

@@ -55,7 +55,7 @@
                                                     <td><?= $e['pdf'] ?></td>
                                                     <td>
                                                         <a href="/equipment/<?= $e['slug']; ?>" class="btn btn-success my-1">Detail</a>
-                                                        <a href="" class="btn btn-warning my-1"> Edit</a>
+                                                        <!-- <a href="" class="btn btn-warning my-1"> Edit</a> -->
         
                                                     </td>
                                                 </tr>
